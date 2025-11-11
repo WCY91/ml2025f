@@ -153,8 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
-    </div>
+這次在訓練過程中，嘗試了幾種不同的技巧來提升模型表現。除了基本的資料前處理外，也利用兩個模型互相配合的方式來增加預測準確度，例如讓一個模型專注於主要特徵的擷取，另一個模型則用來修正預測誤差。這種結合策略讓整體結果更穩定。此外，在訓練過程中也會觀察 loss 變化，適時調整學習率或 batch size，以避免過擬合並加快收斂速度。整體來說，透過這些小技巧與實驗，可以更靈活地改善模型效能，讓訓練成果更理想。    </div>
   </div>
 
   <!-- ------------------------------------------------>
@@ -169,12 +168,12 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
           <td>Simple baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
           <td>Medium baseline - 描述</td>
         </tr>
@@ -203,7 +202,24 @@
   </div>
 
   <!-- ------------------------------------------------>
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+    Simple Baseline Dice分數圖
+    </div>
+    <div class="col-md-12 twenty">
+      <img class="withborder" src="./simple.png" height="360"> 
+    </div>
+  </div>
 
+  <!-- ------------------------------------------------>
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+    Medium Baseline Dice分數圖
+    </div>
+    <div class="col-md-12 twenty">
+      <img class="withborder" src="./medium.png" height="120"> 
+    </div>
+  </div>
   <!-- ------------------------------------------------>
 
 
